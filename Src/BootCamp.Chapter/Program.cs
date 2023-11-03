@@ -2,21 +2,26 @@
 
 namespace BootCamp.Chapter
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Chapter1.Lesson1();
+        }
+    }
+
+    public class Chapter1
+    {
+        public static void Lesson1()
+        {
             Console.WriteLine("input 1 start ,input 2 end!");
             int mark = int.Parse(Console.ReadLine());
 
-
             while (true)
             {
-
                 if (mark == 1)
                 {
-
                     Console.WriteLine("please input your name!");
                     string name = Console.ReadLine();
                     Console.WriteLine("please input your age!");
@@ -33,10 +38,7 @@ namespace BootCamp.Chapter
                 {
                     Console.WriteLine("game over!");
                 }
-
             }
-
-
         }
     }
 }
