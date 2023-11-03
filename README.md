@@ -1,51 +1,51 @@
-# C#: From Zero To Hero
+＃C＃：从零到英雄
 
-## Chapter 1. Homework 1 and 2: Variables, Visual Studio, Git and Github
+##第1章。作业1和2：变量，视觉工作室，git和github
 
-### Intro
+＃＃＃ 介绍
 
-#### Variables
+####变量
 
-Nearly every single program needs variables.
-A variable has a name, type and value. They are used to carry some small state (value) throug some part of the program.
-The whole point of variables is to be consumed.
-We consume variables by passing them into functions or doing arithmetic operations.
+几乎每个程序都需要变量。
+变量具有名称，类型和值。它们被用来通过该计划的某些部分来携带一些小状态（价值）。
+变量的全部要消耗。
+我们通过将变量传递到函数或进行算术操作来消耗。
 
-#### Finding missing pieces (Console)
+####寻找缺失的作品（控制台）
 
-Often, a lesson won't cover 100% of material needed for finishing homework. But this is a representation of real life, where you constantly have to get the missing pieces (most likely through googling). The missing pieces in this homework are:
+通常，课程不会涵盖完成作业所需的100％的材料。但这是现实生活中的代表，您必须不断地获得缺失的作品（很可能是通过谷歌搜索）。这项作业中缺少的作品是：
 
-``Console.ReadLine``
-``int.Parse``
-``double.Parse``. 
+``console.Readline'
+````int.parse''
+``double.parse''。
 
-#### Visual Studio
+＃＃＃＃ 视觉工作室
 
-IDE is an environment where all the programming is done. 
-It offers all the needed tools: 
-- Hints while writing code (Intellisence)
-- Run code
-- Debug code
-- Analyse code: see errors, warnings, code complexity...
-Visual Studio is probably the best IDE for developing C# code, because it has everything you need out of the box.
-Visual Studio Code is another IDE that we could use for C#, though it's much more general and you will need to configure it before you can use it.
+IDE是完成所有编程的环境。
+它提供所有必要的工具：
+ - 在编写代码（智能）时提示
+ - 运行代码
+ - 调试代码
+ - 分析代码：请参阅错误，警告，代码复杂性...
+Visual Studio可能是开发C＃代码的最佳IDE，因为它可以开箱即用。
+Visual Studio代码是我们可以用于C＃的另一个IDE，尽管它更一般，您需要在使用它之前对其进行配置。
 
-#### Open source and Github
+####开源和github
 
-Open source code is how people all around the world, without knowing each, other collaborate.
-Such way of collaborating needs to be learned early, if you want to do anything serious with programming.
-It's not very easy and intutive to learn right away.
-Regardless of that, it's necessary if we want to ensure easy and convenient collaboration.  
+开源代码是世界各地的人们如何在不知情的情况下进行合作。
+如果您想对编程做任何认真的事情，则需要尽早学习这种合作的方式。
+立即学习并不是很容易且无关紧要。
+无论如何，如果我们要确保简单便捷的协作，则有必要。
 
-Github is an open source code host. It's the most popular and widely use host for git.
-Therefore we will be using it for all of our homework.
+GitHub是开源代码主机。它是最受欢迎的git主机。
+因此，我们将用于所有作业。
 
-### Pull Request
+###拉请求
 
-Pull request allows requesting a change for an open source project.
-It doesn't matter who asks to make a change, all that matters is that changes are relevant and adds value to the repository.  
+拉请求允许为开源项目请求更改。
+谁要求进行更改并不重要，最重要的是更改是相关的，并为存储库增加了价值。
 
-You will be learning all of the above throughout this homework.
+在整个家庭作业中，您将学习上述所有内容。
 
 ### Task
 
@@ -61,37 +61,37 @@ Read name, surename, age, weight (in kg) and height (in cm) **from console**. DO
 
 #### Github
 
-Full guide of how to use Visual Studio teams can be found here: https://github.com/csinn/CSharp-From-Zero-To-Hero/wiki/Github-In-Vs
+可以在此处找到如何使用视觉工作室团队的完整指南：https：//github.com/csinn/csharp-from-zero-zero-to-hero/wiki/wiki/github/github-ingithub-in-github-in-i-in-in--vs
 
-* Fork https://github.com/csinn/CSharp-From-Zero-To-Hero/tree/Chapter1/Homework/1And2
-  * Open the link.
-  * Click the fork button in the upper right.
-  * Click the green Clone or download button and clone your repository the way that suits you best.
-  * Open your repository in Visual Studio 2019.
-  * Select the right branch in the bottom right! That name should be Chapter1/Homework/1And2 instead of master in the end.
-  * Make sure that you open Bootcamp.sln. This is called a solution. Remember this!
-* Source code from lesson 1 homework should end up on your forked branch.
-  * Open the Src folder.
-  * Open the BootCamp.Chapter project file. Remember that this is a project file!
-  * Open the Program.cs file.
-  * Put your code from homework 1 here.
-* Create a pull request to request your forked branch to be merged to the source branch.
-  * Click the pencil symbol in the bottom right and type in a commit message.
-  * Press commit button.
-  * Click the single arrow button (next to the pencil) in the bottom right.
-  * Push your commit.
-  * Click the line plus arrow button (next to the single arrow) in the bottom right.
-  * Click create new element.
-  * Click on master branch and change it to Chapter1/Homework/1And2.
-  * Give your pull request a meaningful title and description.
-  * Click create.
-* Pass all Pull Request checks (mentor review) 
+*叉子https://github.com/csinn/csharp-from-zero-to-hero/tree/chapter1/homework/1and2
+  *打开链接。
+  *单击右上角的叉按钮。
+  *单击绿色克隆或下载按钮，然后以最适合您的方式克隆您的存储库。
+  *在Visual Studio 2019中打开您的存储库。
+  *在右下角选择右分支！该名称应最终是第1章/作业/1和2而不是主人。
+  *确保您打开bootcamp.sln。这称为解决方案。记住这一点！
+*第1课作业中的源代码应最终进入您的分支分支。
+  *打开SRC文件夹。
+  *打开bootcamp.chapter项目文件。请记住，这是一个项目文件！
+  *打开program.cs文件。
+  *在此处将您的代码从作业1中放置。
+*创建一个拉请请求，以请求您的分叉分支合并到源分支。
+  *单击右下角的铅笔符号，然后输入提交消息。
+  *按提交按钮。
+  *单击右下角的单个箭头按钮（靠近铅笔）。
+  *推动您的提交。
+  *单击右下角的行加上箭头按钮（靠近单箭头）。
+  *单击创建新元素。
+  *单击主分支，然后将其更改为第1章/作业/1和2。
+  *给您的拉请请求一个有意义的标题和描述。
+  *单击创建。
+*通过所有拉申请检查（导师评论）
 
-### Hints
+###提示
 
-* The tasks require you to have already created an account on GitHub. Do that first!
-* If you do not understand something or need help:
-  * Ask questions in the channel bc-discussion in Discord.
-  * Check the wiki of this repository (work in progress!).
-  * Check the bc-materials channel for reference material.
-  * Check the bc-announcements channel for related stuff.
+*任务要求您已经在GitHub上创建了一个帐户。首先做！
+*如果您不了解某事或需要帮助：
+  *在不和谐中的BC讨论中提出问题。
+  *检查此存储库的Wiki（正在进行的工作！）。
+  *检查BC材料通道中是否有参考材料。
+  *检查BC-Nouncements频道中是否有相关内容。
