@@ -5,12 +5,12 @@ using System.Text;
 namespace BootCamp.Chapter
 {
     /// <summary>
-    /// Test class is used to test your implementation.
-    /// Each homework will have a set of steps that you will have to do.
-    /// You can name your functions however you want, but to validate your solution, place them here.
-    /// DO NOT CALL FUNCTIONS FROM TESTS CLASS
-    /// DO NOT IMPLEMENT FUNCTIONS IN TESTS CLASS
-    /// TESTS CLASS FUNCTIONS SHOULD ALL HAVE 1 LINE OF CODE
+///测试类用于测试您的实现。
+    ///每项作业都将有一组您必须做的步骤。
+    ///您可以根据需要命名您的功能，但是要验证解决方案，请将它们放在此处。
+    ///请勿从测试类调用功能
+    ///不要在测试类中实现功能
+    ///测试类功能都应具有1行代码
     /// </summary>
     public static class Checks
     {
